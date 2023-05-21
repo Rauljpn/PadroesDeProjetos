@@ -1,0 +1,25 @@
+= Envio de Mensagens
+
+Atualmente, aplicações de diversas plataformas como web e mobile possuem recursos de envio de mensagens por diferentes meios como: email, sms, WhatsApp, notificações push, etc.
+
+Considere você precisará:
+
+- trocar a forma de envio de mensagens por outra;
+- ou alternar entre diferentes formas.
+
+No entanto, você não quer ficar escrevendo `if()` em todos os locais onde precisa definir qual classe será instanciada para enviar mensagens e quer que o processo de decisão de qual classe instanciar (que define a forma de envio de mensagens) seja encapsulado.
+
+Faça as alterações necessárias no projeto atual e implemente um padrão para resolver os problemas mencionados.
+
+
+== Responda
+
+1. Qual padrão de projeto pode ser utilizado para resolver este problema? Implemente a solução (não precisa enviar mensagens de fato, apenas simular com prints).
+
+Para resolver o problema de alternar entre diferentes formas de envio de mensagens
+sem precisar escrever condições if em vários locais do código,
+podemos utilizar o padrão de projeto Strategy em conjunto com
+o padrão Factory Method. O padrão Strategy nos permite encapsular diferentes
+algoritmos ou estratégias em classes separadas,
+enquanto o padrão Factory Method nos permite criar objetos
+de diferentes classes derivadas de uma interface comum.
