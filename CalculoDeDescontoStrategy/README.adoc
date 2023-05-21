@@ -1,0 +1,29 @@
+= Cálculo de Desconto
+
+Considere que temos um sistema de vendas onde diferentes formas de desconto podem ser implementadas de acordo com as promoções vigentes, como em datas comemorativas. O sistema deve permitir o cálculo do desconto sobre a venda das seguintes maneiras:
+
+- percentual de desconto definido (que pode vir de um banco de dados);
+- percentual de desconto progressivo: `valor da compra/25`, não podendo ultrapassar 20% (este são apenas valores arbitrários de exemplo);
+- desconto de 15% na data de aniversário do cliente.
+
+O usuário é quem escolhe o tipo de desconto a ser aplicado, não o programa.
+O programa deve apenas permitir que seja mudado o algoritmo de cálculo do desconto.
+
+== Responda
+
+1 - Qual padrão de projeto pode ser utilizado no desenvolvimento de uma solução?
+
+Uma abordagem adequada para resolver esse problema seria utilizar o padrão de projeto Strategy.
+O padrão Strategy permite definir uma família de algoritmos, encapsulando cada um deles em uma
+classe separada e tornando-os intercambiáveis.
+Dessa forma, você pode definir diferentes estratégias de cálculo de desconto e permitir que
+o usuário escolha qual estratégia será aplicada.
+
+2 - Como poderíamos implementar estes tipos de desconto sem utilizar Padrões de Projetos?
+
+Sem utilizar padrões de projetos, é possivel abordar o problema de forma mais direta,
+criando as classes e métodos necessários para calcular os descontos.
+
+3 - Quais os problemas que tal implementação traria?
+
+Duplicação de código, acoplamento, dificuldade em trocar de estrategia entre outros.
