@@ -1,4 +1,4 @@
-= Cálculo de Desconto
+= Padrão de Projeto Strategy - Cálculo de Desconto
 
 Considere que temos um sistema de vendas onde diferentes formas de desconto podem ser implementadas de acordo com as promoções vigentes, como em datas comemorativas. O sistema deve permitir o cálculo do desconto sobre a venda das seguintes maneiras:
 
