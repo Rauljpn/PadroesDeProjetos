@@ -1,5 +1,5 @@
 
-= Instanciando Produtos
+= Padrão de Projeto Builder - Instanciando Produtos
 
 Considere que temos uma classe Produto com os seguintes atributos:
 
