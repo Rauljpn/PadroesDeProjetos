@@ -12,7 +12,7 @@ public class Main {
         for (String m : tiposDeMensagem) {
             EnviadorDeMensagens enviador = EnviadorDeMensagemFactory.newInstance(m);
             MensageiroEstrategista estrategista = new MensageiroEstrategista(enviador);
-            estrategista.enviarMensagem("Fala Manoel");
+            estrategista.enviarMensagem("Fala Manel");
         }
     }
 }
