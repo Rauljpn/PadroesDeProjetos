@@ -1,4 +1,4 @@
-= Envio de Mensagens
+= Padrão de Projetos Factory e Strategy - Envio de Mensagens
 
 Atualmente, aplicações de diversas plataformas como web e mobile possuem recursos de envio de mensagens por diferentes meios como: email, sms, WhatsApp, notificações push, etc.
 
